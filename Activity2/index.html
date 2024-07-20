@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Recipe</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <ul class="nav-container">
+            <li class="list"><a href="#">Home</a></li>
+            <li class="list"><a href="#">Recipe</a></li>
+            <li class="list"><a href="../about us/index.html">About Us</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <h1>Welcome to Our Recipe Collection</h1>
+        <p>Share your favorite recipes with us!</p>
+    </header>
+    <section class="recipe" id="breakfast-section">
+        <h2>Breakfast Dishes</h2>
+        <form class="recipe-form" id="breakfast-form">
+            <input type="text" placeholder="Recipe name" required>
+            <input type="text" placeholder="Ingredients" required>
+            <input type="number" placeholder="Rate" min="1" max="10" required>
+            <button type="submit" class="button">Submit</button>
+        </form>
+        <div id="breakfast-result" class="result"></div>
+    </section>
+    <section class="recipe" id="dinner-section">
+        <h2>Dinner Dishes</h2>
+        <form class="recipe-form" id="dinner-form">
+            <input type="text" placeholder="Recipe name" required>
+            <input type="text" placeholder="Ingredients" required>
+            <input type="number" placeholder="Rate" min="1" max="10" required>
+            <button type="submit" class="button">Submit</button>
+        </form>
+        <div id="dinner-result" class="result"></div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Recipe Collection. All rights reserved.</p>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
